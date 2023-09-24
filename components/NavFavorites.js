@@ -7,13 +7,13 @@ const NavFavorites = () => {
   const data = [
     {
       id: "123",
-      icon: "home",
+      icon: "car",
       location: "Home",
       destination: "Lekki Phase 2, Lagos, Nigeria.",
     },
     {
       id: "12345",
-      icon: "briefcase",
+      icon: "card",
       location: "Work",
       destination: "Lagos Island , Lagos, Nigeria.",
     },

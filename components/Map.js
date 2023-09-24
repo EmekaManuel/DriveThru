@@ -44,7 +44,7 @@ const Map = () => {
   useEffect(() => {
     if (!origin || !destination) return;
     const getTravelTime = async () => {
-      const URL = `https://maps.googleapis.com/maps/api/distancematrix/json?destinations=${destination.description}&origins=${origin.description}&units=imperial&key=AIzaSyBRUIwgWmQLqhExn_CVoriT5csWk4yfdss`;
+      const URL = `https://maps.googleapis.com/maps/api/distancematrix/json?destinations=${destination.description}&origins=${origin.description}&units=imperial&key=AIzaSyDeVMKrgt5jYOVEINzuu_nrJ5oC2MXxlr0`;
       fetch(URL)
         .then((res) => res.json())
         .then((data) => {
@@ -70,7 +70,7 @@ const Map = () => {
         <MapViewDirections
           origin={origin.description}
           destination={destination.description}
-          apikey="AIzaSyBRUIwgWmQLqhExn_CVoriT5csWk4yfdss"
+          apikey="AIzaSyDeVMKrgt5jYOVEINzuu_nrJ5oC2MXxlr0"
           strokeWidth={3}
           strokeColor="black"
         />

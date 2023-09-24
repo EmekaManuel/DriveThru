@@ -47,7 +47,7 @@ const HomeScreen = () => {
         listViewDisplayed={true}
         minLength={2}
         query={{
-          key: "AIzaSyBRUIwgWmQLqhExn_CVoriT5csWk4yfdss",
+          key: "AIzaSyDeVMKrgt5jYOVEINzuu_nrJ5oC2MXxlr0",
           language: "en",
         }}
         placeholder="Where From"
